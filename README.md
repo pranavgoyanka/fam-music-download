@@ -14,20 +14,26 @@ DISCLAIMER: This project has been built for educational purposes only. Please su
 * Create Artist Folder.
 * Handle exceptions such as connection breaks.
 
+
+
 ## Usage
 
-1. Run the script with 
+1. Install all the dependencies with
+
+``` pip install requirements.txt ```
+
+2. Run the script with 
 
 ``` python3 test.py ```
 
-2. Enter the Album ID. The album ID is the the 12 digit number after the URL of the album at FAM. For example if the URL is 
+3. Enter the Album ID. The album ID is the the 12 digit number after the URL of the album at FAM. For example if the URL is 
 ``` https://freeallmusic.top/album/2830-2511-0877 ```
 the Album ID would be 
 ``` 2830-2511-0877 ```.
 
 
-3. Enter the number of songs present in the album.
+4. Enter the number of songs present in the album.
 
-4. The album will be downloaded and stored at /downloads/<album_name>.
+5. The album will be downloaded and stored at /downloads/<album_name>.
 
 Note: The number of songs entered is basically going to download tracks 1 through the number you entered. If you enter a smaller number than the total number of tracks, the album would partially download till that point only. But any other form of partial album download is not supported. You will need to edit the script and explicitly mention the tracks you want to download if you wish to do so.
