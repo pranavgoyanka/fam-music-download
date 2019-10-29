@@ -3,7 +3,7 @@ Download Music From FAM
 
 A Python project to download entire albums, song by song from freeallmusic.
 
-DISCLAIMER: This project has been built for educational purposes only. Please support the artists by getting your music from official sources.
+DISCLAIMER: This project has been built for educational purposes only, for understanding the working web API requests and headers. Please support the artists by getting your music from official sources.
 
 ## Bugs
 * The downloaded tracks are verified once downloaed to make sure that the songs are completely downloaded. But sometimes, post verification downloads seem to fail, resulting in broken tracks. In such cases either re-run the script or download the song manually.
