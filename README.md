@@ -13,6 +13,8 @@ DISCLAIMER: This project has been built for educational purposes only. Please su
 * Convert this into a web application.
 * Create Artist Folder.
 * Handle exceptions such as connection breaks.
+* Remove requirement to enter total tracks
+* Only enter artist and album name, no ID (if I am not too lazy)
 
 
 
