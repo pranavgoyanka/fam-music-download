@@ -36,4 +36,4 @@ the Album ID would be
 
 5. The album will be downloaded and stored at /downloads/<album_name>.
 
-Note: The number of songs entered is basically going to download tracks 1 through the number you entered. If you enter a smaller number than the total number of tracks, the album would partially download till that point only. But any other form of partial album download is not supported. You will need to edit the script and explicitly mention the tracks you want to download if you wish to do so.
+Note: The number of songs entered is basically going to download tracks 1 through the number you entered. If you enter a smaller number than the total number of tracks, the album would be partially download till that point only. But any other forms of partial album downloads are not supported. You will need to edit the script and explicitly mention the tracks you want to download if you wish to do so.
