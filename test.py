@@ -58,6 +58,13 @@ def download(i = first):
     url_dl = b[start:start+end+6]
     s.headers.update({'referer': url_next}) #url_next needs to be passed as the referer header for the get request
     p = s.get(url_dl)
+    
+    # Sanitize Special Characters while writing file
+    set = '<>:"/\|?*'
+    for c in set:
+        title = title.replace(c, ';')
+    
+
     open('downloads/'+album + '/'+title+'.mp3', 'wb').write(p.content)
     inf[title] = i
 
