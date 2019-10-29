@@ -20,11 +20,11 @@ DISCLAIMER: This project has been built for educational purposes only. Please su
 
 1. Install all the dependencies with
 
-``` pip install requirements.txt ```
+    ``` pip install requirements.txt ```
 
 2. Run the script with 
 
-``` python3 test.py ```
+    ``` python3 test.py ```
 
 3. Enter the Album ID. The album ID is the the 12 digit number after the URL of the album at FAM. For example if the URL is 
 ``` https://freeallmusic.top/album/2830-2511-0877 ```
