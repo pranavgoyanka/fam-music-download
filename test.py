@@ -56,7 +56,7 @@ def download(i = first):
     c = b[start:]
     end = c.find('"') - 6
     url_dl = b[start:start+end+6]
-    s.headers.update({'referer': url_next})
+    s.headers.update({'referer': url_next}) #url_next needs to be passed as the referer header for the get request
     p = s.get(url_dl)
     open('downloads/'+album + '/'+title+'.mp3', 'wb').write(p.content)
     inf[title] = i
