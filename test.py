@@ -81,7 +81,7 @@ i = 0
 for filename in tqdm.tqdm(os.listdir('downloads/'+album + '/'), unit='song'):
     
     info = os.stat('./downloads/'+ album + '/'+  filename)
-    if info.st_size < 10000:
+    if info.st_size < 500000:
         print('Fixing ' + filename)
         os.remove('./downloads/' + album + '/'+ filename)
         download(inf[filename[:-4]])
