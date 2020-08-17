@@ -22,7 +22,7 @@ DISCLAIMER: This project has been built for educational purposes only, for under
 
 1. Install all the dependencies with
 
-    ``` pip install requirements.txt ```
+    ``` pip3 install -r requirements.txt ```
 
 2. Run the script with 
 
