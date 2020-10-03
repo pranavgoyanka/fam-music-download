@@ -1,4 +1,4 @@
-# fam-music-downoad
+# fam-music-download
 Download Music From FAM
 
 A Python project to download entire albums, song by song from freeallmusic.
